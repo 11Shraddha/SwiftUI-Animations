@@ -2,7 +2,6 @@
 Implement Animations in SwiftUI.
 
 ![platform](https://img.shields.io/badge/platform-iOS-orange)
-[![GitHub license](https://img.shields.io/badge/License-Apache2.0-blue.svg)](LICENSE)
 ![GitHub follow](https://img.shields.io/github/followers/11Shraddha?style=social)
 ![Star](https://img.shields.io/github/stars/11Shraddha)
 

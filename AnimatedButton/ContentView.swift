@@ -56,7 +56,6 @@ struct ContentView: View {
                     .onAppear {
                         withAnimation(Animation.linear(duration: 0.5)) {
                             self.tickPath = 1
-                            self.tickScale = 0.4
                         }
                         withAnimation(Animation.linear(duration: 0.8)) {
                             self.tickScale = 0.7
@@ -106,14 +105,14 @@ struct Tick: Shape {
     let scaleFactor: CGFloat
     
     func path(in rect: CGRect) -> Path {
-        let cX = rect.midX
-        let cY = rect.midY - 3
+        let cX = rect.midX + 8
+        let cY = rect.midY
         
         var path = Path()
-        path.move(to: CGPoint(x: rect.midX, y: rect.midY))
-        path.move(to: CGPoint(x: cX - (42 * scaleFactor), y: cY))
-        path.addLine(to: CGPoint(x: cX - (scaleFactor * 18), y: cY + (scaleFactor * 28)))
-        path.addLine(to: CGPoint(x: cX + (scaleFactor * 40), y: cY - (scaleFactor * 36)))
+        //        path.move(to: CGPoint(x: rect.midX, y: rect.midY))
+        path.move(to: CGPoint(x: cX - (35 * scaleFactor), y: cY))
+        path.addLine(to: CGPoint(x: cX - (scaleFactor * 18), y: cY + (scaleFactor * 20)))
+        path.addLine(to: CGPoint(x: cX + (scaleFactor * 20), y: cY - (scaleFactor * 20)))
         return path
     }
 }

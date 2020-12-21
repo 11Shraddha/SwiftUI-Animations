@@ -8,8 +8,8 @@ Implement Animations in SwiftUI.
     
 
 ## Button Animation
-![ ](button_animation.gif)
 
+<img src="button_animation.gif" width="250"/>
 
 [**View Code**](https://gitlab.com/shraddha.sojitra/swiftui-animations/-/tree/master/AnimatedButton)
 

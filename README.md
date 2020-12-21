@@ -10,7 +10,9 @@ Implement Animations in SwiftUI.
 
 ## Button Animation
 
-![alt tag](https://gitlab.com/shraddha.sojitra/swiftui-animations/-/blob/master/button_animation.gif)
+![Animated Button](https://gitlab.com/shraddha.sojitra/swiftui-animations/-/blob/master/button_animation.gif)
+
+
 [**View Code**](https://gitlab.com/shraddha.sojitra/swiftui-animations/-/tree/master/AnimatedButton)
 
 
